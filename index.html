@@ -6,26 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Eli</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg bg-white">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Eli</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="#yo">Yo</a>
-                    </li>
-                    <li class="nav-item">
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#yo">Yo</a>
+              </li>
+              <li class="nav-item">
                         <a class="nav-link" href="#">Habilidades</a>
                     </li>
                     <li class="nav-item">
@@ -41,14 +43,15 @@
             </div>
         </div>
     </nav>
-
     <header id="yo" class="container-fluid d-flex align-items-center">
-        <div class="container py-5 my-5">
-            <h1 class="display-5 fw-bold">Hola, soy</h1>
-            <h1 class="display-5 fw-bold">Elizabeth Joaquin Rosales</h1>
+      <div class="container py-5 my-5">
+        <h1 class="display-5 fw-bold">Hola, soy</h1>
+        <h1 id="app" class="display-5 fw-bold">Elizabeth Joaquin Rosales</h1>
+  
 
             <div class="col-lg-6">
-              <p class="lead mb-4">Soy una desarrolladora junior, me gusta pintar, fotografiar, soy aprendiz de violin y teclado, estudio ingenieria en sistemas computacionales (ojala no me de de baja antes) horneo cuando me estreso y duermo hasta 12 horas los fines de semana</p>
+              <p class="lead mb-4">Soy una desarrolladora junior, me gusta pintar, fotografiar, soy aprendiz de violin y teclado, 
+    estudio ingenieria en sistemas computacionales (ojala no me de de baja antes) horneo cuando me estreso y duermo hasta 12 horas los fines de semana</p>
               <div class="d-grid gap-2 d-sm-flex">
                 <button type="button" class="btn btn-outline-danger btn-lg px-4 gap-3">Contáctame</button>
                 <a class="px-3 py-2" href="elijoaquin48@gmail.com">elijoaquin48@gmail.com</a>
@@ -58,117 +61,241 @@
     </header>
 
     <main id="proyectos" class="container-fluid d-flex align-items-center">
-        <div class="container py-5 my-5">
+      <div class="container py-5 my-5">
+          <h1 class="display-5 fw-bold text-body-emphasis">Habilidades</h1>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon">
+                <i class="bi bi-code-slash icono"></i>
+              </div>
+    
+              <h2 class="subtitulo-habilidades">Desarrollo web</h2>
+    
+              <p>Soy apenas estudiante de ingenieria en sistemas, sin embargo me gusta aprender cada dia mas sobre mi
+                rama y espero ser en el futuro una buena ingenieria en sistemas.</p>
+    
+            </div>
+    
+            <div class="feature col">
+              <div class="feature-icon">
+                <i class="bi bi-people icono"></i>
+              </div>
+    
+              <h2 class="subtitulo-habilidades">Trabajo en equipo</h2>
+    
+              <p>Estoy abierta a colaborar en equipos para distintas actividades.</p>
+            </div>
+    
+    
+    
+            <div class="feature col">
+              <div class="feature-icon">
+                <i class="bi bi-bookmark-check icono"></i>
+              </div>
+    
+              <h2 class="subtitulo-habilidades">Responsabilidad</h2>
+    
+              <p>Me comprometo con los proyectos, buscando cumplirla con integridad y confianza.</p>
+            </div>
+    
+          </div>
+    
+        </section>
+    
+        <!-- Proyectos -->
+    
+        <section id="proyectos" class="container-fluid d-flex align-items-center">
+          <div class="container py-5 my-5">
             <h1 class="display-5 fw-bold text-body-emphasis">Proyectos</h1>
             <div>
-                <div class="album py-5 bg-body-tertiary">
-                    <div class="container">
-                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                              </div>
-                            </div>
+              <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    
+    
+    
+    
+                    <div class="col">
+                      <div class="card shadow-sm">
+    
+                        <img src="absset/4.png" alt="pintura">
+    
+                        <div class="card-body">
+                          <p class="card-text">Proyecto de mi interes: mi primera prueba.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-body-secondary">Proyecto pagina web de prueba</small>
                           </div>
                         </div>
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-            
+    
+    
                       </div>
                     </div>
+    
+    
+    
+                    <div class="col">
+                      <div class="card shadow-sm">
+    
+                        <img src="absset/1.png" alt="pintura">
+    
+                        <div class="card-body">
+                          <p class="card-text">Proyecto de mi interes: Mi primera pagina web.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-body-secondary">Proyecto web</small>
+                          </div>
+                        </div>
+    
+    
+                      </div>
+                    </div>
+    
+    
+    
+                    <div class="col">
+                      <div class="card shadow-sm">
+    
+                        <img src="absset/2.png" alt="pintura">
+    
+                        <div class="card-body">
+                          <p class="card-text">Proyecto de mi interes: bootstrap.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-body-secondary">Mi primer proyecto bootstrap</small>
+                          </div>
+                        </div>
+    
+    
+                      </div>
+                    </div>
+    
+    
+    
+                    <div class="col">
+                      <div class="card shadow-sm">
+    
+                        <img src="absset/3.png" alt="pintura">
+    
+                        <div class="card-body">
+                          <p class="card-text">Proyecto de mi interes: mi segunda prueba de pagina web.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-body-secondary">Proyecto prueba de pagina web</small>
+                          </div>
+                        </div>
+    
+    
+                      </div>
+                    </div>
+    
+    
+    
+                    <div class="col">
+                      <div class="card shadow-sm">
+    
+                        <img src="absset/clongoogle.png" alt="pintura">
+    
+                        <div class="card-body">
+                          <p class="card-text">Proyecto de mi interes: Mi primer clon de google.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-body-secondary">Proyecto google</small>
+                          </div>
+                        </div>
+    
+    
+                      </div>
+                    </div>
+    
                   </div>
+                </div>
               </div>
-          </div>
-    </main>
-
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+            </section>
+        
+            <!-- Testimonios -->
+        
+            <section id="testimonios" class="container pb-5">
+              <h1 class="text-center pb-5">Testimonios</h1>
+              <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item text-center active">
+                          <img src="absset/yo.jpg" class="img-thumbnail w-25 rounded-circle" alt="Pinturas">
+                          <h1>¡Hola, es un gusto conocerte!</h1>
+                          <p>Soy una estudiante y futura ingeniera en sistemas comprometida con su trabajo.</p>
+                      </div>
+          
+                      <div class="carousel-item text-center">
+                          <img src="absset/piano.jpg" class="img-thumbnail w-25 rounded-circle" alt="Pinturas">
+                          <h1>Con gusto por el piano</h1>
+                          <p>Lo he tocado desde los 10, sin embargo sigo mejorando.</p>
+                      </div>
+          
+                      <div class="carousel-item text-center">
+                          <img src="absset/violin.jpg" class="img-thumbnail w-25 rounded-circle" alt="Pinturas">
+                          <h1>Con gusto por el violín</h1>
+                          <p>Llevo con el desde los 16, sin embargo sigo mejorando cada dia.</p>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </section>
+          
+          </main>
+        
+            <!-- Contactos -->
+          <footer id="contacto">
+            <div class="bg-black text-secondary px-4 py-5 text-center">
+              <div class="py-5">
+        
+                <i id="icono-footer" class="bi bi-code"></i>
+        
+                <div class="col-lg-6 mx-auto">
+                  <p class="fs-5 mb-4">Un viaje continuo de aprendizaje y crecimiento en el mundo de la tecnología.</p>
+                  
+                  <div id= "iconos"class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="https://github.com/Ejoaquinr" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github icono-contacto"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/elizabeth-joaquin-rosales-76120b309" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-linkedin icono-contacto"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_ejoaquin_?igsh=MTEwZHd4Y2h1d3d6MQ==" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-instagram icono-contacto"></i>
+                    </a>
+                    <a href="elijoaquin48@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-envelope icono-contacto"></i>
+                    </a>
+                  </div>
+        
+        
+                </div>
+        
+        
+              </div>
+              <h6 id="derechos-de-autor">Creado por Elizabeth Joaquin Rosales (2024) - Technolochicas PRO</h6>
+            </div>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        
+            
+            <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        
+        
+            
+            <script src="java.js"></script>
+        </body>
+        
+        </html>
+        
+        
+        
+    
+    
+    
+    
+    

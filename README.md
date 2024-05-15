@@ -10,10 +10,10 @@ Fue desarrollado con HTML, CSS y JS con el uso de framework Bootstrap utilizando
 
 
 ![Sección Yo](absset/1.png)
-![Sección Yo](absset/2.png)
-![Sección Yo](absset/3.png)
-![Sección Yo](absset/4.png)
-![Sección Yo](absset/clongoogle.png)
+![Sección Yo](absset/Habilidades.png)
+![Sección Yo](absset/Proyectos.png)
+![Sección Yo](absset/testimonios.png)
+![Sección Yo](absset/creditos.png)
 
 
 - Tecnologías
